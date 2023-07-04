@@ -95,9 +95,6 @@
     <string name="config_pocketJudgeVendorSensorName"></string>
     <string name="config_pocketJudgeVendorProximitySensorName"></string>
 
-    <!-- Mock Oplus LinearmotorVibratorService -->
-    <bool name="config_mockOplusLinearmotorVibratorService">false</bool>
-
     <!-- Whether device has physical tri state switch -->
     <bool name="config_hasAlertSlider">false</bool>
 

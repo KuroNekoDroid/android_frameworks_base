@@ -59,9 +59,6 @@
     <java-symbol type="string" name="config_pocketJudgeVendorSensorName" />
     <java-symbol type="string" name="config_pocketJudgeVendorProximitySensorName" />
 
-    <!-- Mock Oplus LinearmotorVibratorService -->
-    <java-symbol type="bool" name="config_mockOplusLinearmotorVibratorService" />
-
     <!-- Whether device has physical tri state switch -->
     <java-symbol type="bool" name="config_hasAlertSlider" />
 
