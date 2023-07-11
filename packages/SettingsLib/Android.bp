@@ -87,4 +87,9 @@ java_defaults {
         "androidx.recyclerview_recyclerview",
         "SettingsLib",
     ],
+    optimize: {
+        enabled: true,
+        optimize: true,
+        shrink: true,
+    },
 }
