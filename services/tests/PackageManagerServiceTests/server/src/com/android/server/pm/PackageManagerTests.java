@@ -95,7 +95,7 @@ import java.util.concurrent.TimeUnit;
 
 @Postsubmit
 public class PackageManagerTests extends AndroidTestCase {
-    private static final boolean localLOGV = true;
+    private static final boolean localLOGV = false;
 
     public static final String TAG = "PackageManagerTests";
 
