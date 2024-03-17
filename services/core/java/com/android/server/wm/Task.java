@@ -2604,13 +2604,8 @@ class Task extends TaskFragment {
         }
         mRemoving = true;
 
-<<<<<<< HEAD
         EventLogTags.writeWmTaskRemoved(mTaskId, getRootTaskId(), getDisplayId(), reason);
         clearPinnedTaskIfNeed(true);
-=======
-        EventLogTags.writeWmTaskRemoved(mTaskId, reason);
-        clearPinnedTaskIfNeed();
->>>>>>> 84f0f913e90 (Youtube application when moving to PIP animation was very bad)
         if (mChildPipActivity != null) {
             mChildPipActivity.clearLastParentBeforePip();
         }
